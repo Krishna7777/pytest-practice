@@ -1,0 +1,10 @@
+[32mINFO    [0m rest_client.client_logger:client_logger.py:8 Request method: POST
+[32mINFO    [0m rest_client.client_logger:client_logger.py:9 URL: https://petstore.swagger.io/v2/pet
+[32mINFO    [0m rest_client.client_logger:client_logger.py:10 Headers: {'Content-Type': 'application/json'}
+[32mINFO    [0m rest_client.client_logger:client_logger.py:12 Data: None
+[32mINFO    [0m rest_client.client_logger:client_logger.py:13 Json: {'id': 0, 'name': 'doggie', 'status': 'available'}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/pet HTTP/11" 200 None
+[32mINFO    [0m rest_client.client_logger:client_logger.py:19 Status: 200
+[32mINFO    [0m rest_client.client_logger:client_logger.py:20 Response text: {"id":9223372036854775807,"name":"doggie","photoUrls":[],"tags":[],"status":"available"}
+[32mINFO    [0m root:conftest.py:25 Completed teardown of TestPetAPIS
